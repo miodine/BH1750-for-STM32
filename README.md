@@ -25,7 +25,7 @@ program loop):
 /* USER CODE BEGIN WHILE */
 while (1)
 {
-HAL_Delay(200);
+HAL_Delay(2000);
 result = BH1750_Read(&sensor);
 /* USER CODE END WHILE */
 ```
