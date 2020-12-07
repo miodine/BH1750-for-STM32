@@ -1,6 +1,6 @@
 # BH1750 for STM32 (yet-another)
 Simple library for handling the communication with the BH1750 sensor for STM32 microcontrollers. 
-Intended to use within the STM32Cube IDE. 
+Intended to be used within the STM32Cube IDE. All this is just a tiny "practice" project.
 
 ## Examplary usage
 In the appropriate section of the code, initialise the sensor in the following way:
@@ -31,3 +31,7 @@ result = BH1750_Read(&sensor);
 ```
 
 the 'result' variable is predefined, and of float type.
+
+## Current project status
+Library is functional, but not to such extent as it could be (work in progress).
+
